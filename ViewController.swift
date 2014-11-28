@@ -28,14 +28,14 @@ class ViewController: UIViewController {
                     AnswerLabel.text = "1 is not prime"
                 }else{
                     
-                    for var i = 2; i<IntNumber; ++i{
+                    for var i = 2; i<IntNumber!/2; ++i{
                         
                         if (IntNumber! % i == 0){
                             
                             IsPrime = false
                             
                         }
-                        i++
+                        
                     }
                 }
             }
